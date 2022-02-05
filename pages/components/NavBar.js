@@ -16,16 +16,16 @@ import {
   DrawerCloseButton,
   useDisclosure,
   Stack,
+  Select,
+  option,
   Container,
   Heading,
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
+import Router from 'next/router'
 import { typoStyle, containerStyle, boxStyle, flexStyle, linkStyle, buttonStyle, imageStyle } from '../../styles/globalStyle'
 
-
-const Links = ['FEATURES', 'GET STARTED', 'HOW TO EARN'];
-
-export default function navbar() {
+export default function navbar({ icon, translate }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef()
 
@@ -34,17 +34,22 @@ export default function navbar() {
       <Container {...containerStyle.navBarContainerStyle}>
         <HStack>
           <Flex>
-            <Image src="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" {...imageStyle.navBarImageStyle} />
-            <Heading {...typoStyle.navBartypoStyle}>XIRCUS</Heading>
+            <Image src={icon} {...imageStyle.navBarImageStyle} />
+            <Heading {...typoStyle.navBartypoStyle}>{translate('XIRCUS')}</Heading>
           </Flex>
           <Spacer />
           <Flex {...flexStyle.navBarFlexStyle}>
-            {Links.map((link) => (<Link {...linkStyle.navBarLinkStyle} key={link}>{link}</Link>))}
-            <Button {...buttonStyle.navBarButtonStyle}>English <MdOutlineKeyboardArrowDown /></Button>
+            <Link {...linkStyle.navBarLinkStyle} >{translate('FEATURES')}</Link>
+            <Link {...linkStyle.navBarLinkStyle} >{translate('GET STARTED')}</Link>
+            <Link {...linkStyle.navBarLinkStyle} >{translate('HOW TO EARN')}</Link>
+            <Select defaultValue="en-US" {...buttonStyle.navBarButtonStyle} onChange={e => Router.push('/', '/', { locale: e.target.value })}>
+              <option value="en-US" >English</option>
+              <option value="ph">Filipino</option>
+              <option value="vn">Vietnamese</option>
+            </Select>
           </Flex>
-
           <Button ref={btnRef} display={{ md: 'none' }} onClick={onOpen}>
-              <HamburgerIcon />
+            <HamburgerIcon />
           </Button>
           <Drawer
             isOpen={isOpen}
@@ -55,9 +60,15 @@ export default function navbar() {
             <DrawerContent>
               <DrawerCloseButton />
               <DrawerBody>
-                <Stack mt="20%">
-                  {Links.map((link) => (<Link key={link}>{link}</Link>))}
-                  <Button {...buttonStyle.navBarButtonStyle}>English <MdOutlineKeyboardArrowDown /></Button>
+                <Stack mt="20%" w="100%">
+                  <Link {...linkStyle.navBarLinkStyle} >{translate('FEATURES')}</Link>
+                  <Link {...linkStyle.navBarLinkStyle} >{translate('GET STARTED')}</Link>
+                  <Link {...linkStyle.navBarLinkStyle} >{translate('HOW TO EARN')}</Link>
+                  <Select defaultValue="en-US" isFullWidth {...buttonStyle.navBarButtonStyle} onChange={e => Router.push('/', '/', { locale: e.target.value })}>
+                    <option value="en-US" >English</option>
+                    <option value="ph">Filipino</option>
+                    <option value="vn">Vietnamese </option>
+                  </Select>
                 </Stack>
               </DrawerBody>
             </DrawerContent>

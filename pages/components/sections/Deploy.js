@@ -2,20 +2,20 @@ import { Box, Container, Flex, Grid, Heading, HStack, Image, Text, VStack, Stack
 import { typoStyle, containerStyle, HStackStyle,buttonStyle, imageStyle } from '../../../styles/globalStyle'
 
 
-export default function Deploy() {
+export default function Deploy({translate}) {
   return (
     <Box as="section" >
-      <Container {...containerStyle.conXl} mt="10%" centerContent>
+      <Container {...containerStyle.conXl} centerContent>
         <HStack>
           <VStack spacing={0}>
-            <Button {...buttonStyle.DeployButton} bgColor="red" >General Maketplace</Button>
-            <Button {...buttonStyle.DeployButton}>Music Maketplace</Button>
-            <Button {...buttonStyle.DeployButton}>Short Video Maketplace</Button>
-            <Button {...buttonStyle.DeployButton}>Game Item Maketplace</Button>
-            <Button {...buttonStyle.DeployButton}>Adult Maketplace</Button>
-            <Button {...buttonStyle.DeployButton}>Fan Maketplace</Button>
-            <Button {...buttonStyle.DeployButton}>Subcription Maketplace</Button>
-            <Button {...buttonStyle.DeployButton}>10k Avatar Maketplace</Button>
+            <Button {...buttonStyle.DeployButton} bgColor="red" >{translate('General')}</Button>
+            <Button {...buttonStyle.DeployButton}>{translate('Music')}</Button>
+            <Button {...buttonStyle.DeployButton}>{translate('Short')}</Button>
+            <Button {...buttonStyle.DeployButton}>{translate('Game')}</Button>
+            <Button {...buttonStyle.DeployButton}>{translate('Adult')}</Button>
+            <Button {...buttonStyle.DeployButton}>{translate('Fan')}</Button>
+            <Button {...buttonStyle.DeployButton}>{translate("Subcription")}</Button>
+            <Button {...buttonStyle.DeployButton}>{translate("10k")}</Button>
           </VStack>
           <Spacer/>
           <Box>

@@ -16,12 +16,12 @@ const easyStepData = [
     image: 'https://wallpaperaccess.com/full/2481989.jpg'
   }
 ]
-export default function EasySptep() {
+export default function EasySptep({translate}) {
   const [images, setImages] = useState(easyStepData[0].image)
   return (
     <Box as="section" >
       <Container {...containerStyle.conXl} centerContent>
-        <Heading {...typoStyle.title}>Easy Steps to Get Started</Heading>
+        <Heading {...typoStyle.title}>{translate('Easy')}</Heading>
         <HStack spacing={{ base: 3, sm: 4, md: 6 }} mb="4%">
           {(easyStepData || []).map((data, key) => (<Button {...buttonStyle.EasyStepButton} onClick={() => setImages(data.image)} >{data.button}</Button>))}
         </HStack>

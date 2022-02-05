@@ -29,12 +29,12 @@ const TakeFullControlCard = ({icon,text }) => (
   </Box>
 )
 
-export default function TakeFullControl() {
+export default function TakeFullControl({translate}) {
   return (
     <Box as="section" >
       <Container {...containerStyle.conXl}  centerContent>
-        <Heading {...typoStyle.title}>Take full Control of the NFT Space</Heading>
-        <Text {...typoStyle.subtitle}>Built on multiple chain, NFT marketplace that are deployed, owned and governed by you</Text>
+        <Heading {...typoStyle.title}>{translate('Take')}</Heading>
+        <Text {...typoStyle.subtitle}>{translate('Built')}</Text>
         <Box>
           <Grid {...gridStyle.takeFullControlGridStyle}>
             {(takeFullControlData || []).map((data, key) => ( <TakeFullControlCard {...data}/> ))}
@@ -42,8 +42,7 @@ export default function TakeFullControl() {
         </Box>
 
         <Box {...boxStyle.NFTmakeBoxStyle}>
-          <Text>"NFTs make the internet ownable because you can create digital security. We're just Scratching
-            the surface of what the web 3.0 creator and collection economy is going to be"</Text>
+          <Text>"{translate('NFTs make')}"</Text>
         </Box>
       </Container>
     </Box>

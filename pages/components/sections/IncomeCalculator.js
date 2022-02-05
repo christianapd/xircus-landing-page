@@ -28,41 +28,40 @@ function SliderMarkExample() {
   )
 }
 
-
-export default function IncomeCalculator() {
+export default function IncomeCalculator({translate}) {
   return (
     <Box as="section" >
       <Container {...containerStyle.conXl}  centerContent>
         <Box>
         <Stack {...stackStyle.incomeCalculatorStactStyle}>
-          <Stack align="left">
-          <Heading mb="5%">Income Calculator</Heading>
-          <HStack><GoPrimitiveDot/><Text>Get Started for free</Text></HStack>
-          <HStack><GoPrimitiveDot/><Text>No hidden costs</Text></HStack>
-          <HStack><GoPrimitiveDot/><Text>$1 mint fee only</Text></HStack>
-          <HStack><GoPrimitiveDot/><Text>Owner configured transaction fees starting at 2%</Text></HStack>
-          <HStack><GoPrimitiveDot/><Text>Not taking royalty fess</Text></HStack>
+          <Stack>
+          <Heading mb="5%">{translate('Income')}</Heading>
+          <HStack><GoPrimitiveDot/><Text>{translate('Get')}</Text></HStack>
+          <HStack><GoPrimitiveDot/><Text>{translate('No')}</Text></HStack>
+          <HStack><GoPrimitiveDot/><Text>{translate('$1')}</Text></HStack>
+          <HStack><GoPrimitiveDot/><Text>{translate('Owner')}</Text></HStack>
+          <HStack><GoPrimitiveDot/><Text>{translate('Not')}</Text></HStack>
           </Stack>
-          <Stack  {...stackStyle.incomeCalculatorInnerStactStyle}> >
-          <Heading fontSize="20px">Income Calculator</Heading>
-          <Text fontSize="15px">example using 1,000,000 NFT item Minted. paid with usdc</Text>
-          <Heading fontSize="20px">What's your marketplace mint fee </Heading>
+          <Stack  {...stackStyle.incomeCalculatorInnerStactStyle}> 
+          <Heading fontSize="20px">{translate('Calculator')}</Heading>
+          <Text fontSize="15px">{translate('Example')}</Text>
+          <Heading fontSize="20px">{translate('Whats')}</Heading>
           <SliderMarkExample/>
           <Grid {...gridStyle.incomeCalculatorGridStyle}>
             <Stack >
-              <Heading fontSize={15}>Marketplace Owner</Heading>
+              <Heading fontSize={15}>{translate('Marketplace')}</Heading>
               <Text color="red.300">450,000 USDC</Text>
             </Stack>
             <Stack >
-              <Heading fontSize={15}>Data Provider</Heading>
+              <Heading fontSize={15}>{translate('Data')}</Heading>
               <Text color="red.300">100,000 USDC</Text>
             </Stack>        
             <Stack>
-              <Heading fontSize={15}>Ambassador</Heading>
+              <Heading fontSize={15}>{translate('Ambassador')}</Heading>
               <Text color="red.300">200,000 USDC</Text>
             </Stack>
             <Stack>
-              <Heading fontSize={15}>Xircus</Heading>
+              <Heading fontSize={15}>{translate('Xircus')}</Heading>
               <Text color="red.300">250,000 USDC</Text>
             </Stack>           
           </Grid>

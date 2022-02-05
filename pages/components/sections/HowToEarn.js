@@ -46,12 +46,12 @@ const HowToEarnCard = ({ image, title, desc }) => (
     </Stack>
   </HStack>
 )
-export default function HowToEarn() {
+export default function HowToEarn({translate}) {
   return (
     <Box as="section" color="white">
       <Container {...containerStyle.ConLg} centerContent>
-        <Heading {...typoStyle.title}>How To Earn</Heading>
-        <Text {...typoStyle.subtitle} mb="3%"> Unlesh the power of decentralized NFT marketplace</Text>
+        <Heading {...typoStyle.title}>{translate('How')}</Heading>
+        <Text {...typoStyle.subtitle} mb="3%"> {translate('Unlesh')}</Text>
         <Box w="100%">
           <Grid {...gridStyle.howToEarnGridStyle}>
             {(takeFullControlData || []).map((data, key) => (<HowToEarnCard{...data} />))}

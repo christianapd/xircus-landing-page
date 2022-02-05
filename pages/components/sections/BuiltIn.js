@@ -36,11 +36,11 @@ const BreakPoints = [
   { width: 1750, itemsToShow: 4, itemsToScroll: 1, pagination: false },
 ]
 
-export default function BuiltIn() {
+export default function BuiltIn({translate}) {
   return (
     <Box as="section" >
       <Container {...containerStyle.conXl}centerContent>
-        <Heading {...typoStyle.title} mb="5%">Built-in and Add-On Features</Heading>
+        <Heading {...typoStyle.title} mb="5%">{translate("Built-in")}</Heading>
         <Carousel breakPoints={BreakPoints}>
           {(BuiltInData || []).map((datas, key) => (
             <BuiltInCard {...datas} />

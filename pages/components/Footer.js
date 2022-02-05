@@ -4,16 +4,16 @@ import { FaTelegramPlane, FaFacebook, FaTwitter, FaYoutube, FaGithub, FaInstagra
 
 const Links = ['Blog', 'Resources', 'Term and Condition', 'Privacy', 'Contact Us']
 
-export default function Footer() {
+export default function Footer({translate}) {
   return (
     <Box as="section" pb={1} >
-      <Container {...containerStyle.conXl} mb="0" centerContent>
+      <Container {...containerStyle.conXl} mb="10px" centerContent>
         <Box>
           <Grid {...gridStyle.footerGridStyle} >        
               <HStack mx="auto">
-                <Text>All Right Reserved 2021 | Xircus Pte.Ltd</Text>
+                <Text>{translate('All')}</Text>
               </HStack>         
-            <HStack spacing={5} mx="auto">
+            <HStack spacing={5} mx="auto" fontSize="20px">
               <FaTelegramPlane />
               <FaFacebook />
               <FaTwitter />
@@ -22,10 +22,9 @@ export default function Footer() {
               <FaInstagram />
               <FaLinkedin />
             </HStack>          
-            <HStack spacing={5} mx="auto">
-              {Links.map((link) => (<Link {...linkStyle.footerLinkStyle} key={link}>{link}</Link>))}
+            <HStack spacing={5} mx="auto" >
+              {(Links || []).map((data, key) => ( <Link {...linkStyle.footerLinkStyle} >{data}</Link>))}
             </HStack>
-          
           </Grid>
         </Box>
       </Container>

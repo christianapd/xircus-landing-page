@@ -106,12 +106,12 @@ const Row2 = ({ icon, Title, status }) => (
 )
 
 
-export default function MultipleBlackChain() {
+export default function MultipleBlackChain({translate}) {
   return (
     <Box as="section" >
       <Container {...containerStyle.conXl} centerContent>
-        <Heading {...typoStyle.title}>Multiple BlackChain Support</Heading>
-        <Text{...typoStyle.subtitle} mb="5%">Xircus Support multi-chain deployment for Multiple blockchain selection</Text>
+        <Heading {...typoStyle.title}>{translate('Multiple')}</Heading>
+        <Text {...typoStyle.subtitle} mb="5%">{translate('Xircus')}</Text>
         <Flex w="100%" mb="30px" >
           <Grid {...gridStyle.multipleBlackChaingGridSyleRow1}>
             {(MultipleBlackChainData || []).map((data, key) => (<Row1{...data}/>))}

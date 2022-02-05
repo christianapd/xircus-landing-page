@@ -1,0 +1,74 @@
+{
+  "navBarLang": {
+    "XIRCUS": "XIRCUS",
+    "FEATURES": "TÍNH NĂNG, ĐẶC ĐIỂM",
+    "GET STARTED": "BẮT ĐẦU",
+    "HOW TO EARN": "CÁCH KIẾM TIỀN"
+  },
+  "heroLang": {
+    "XIRCUS": "XIRCUS",
+    "Start": "Bắt đầu kinh doanh NFT của bạn ngay hôm nay!",
+    "Deploy": "Triển khai thị trường NFT có thể tùy chỉnh của bạn trong vài phút đi kèm với các tính năng tuyệt vời",
+    "DeployButton": "Triển khai Thị trường",
+    "GetButton": "Nhận XircusPunks cho",
+    "GetButton2": "Quyền truy cập sớm",
+    "As": "Như được thấy trên"
+  },
+  "takeFullControlLang": {
+    "Take": "Kiểm soát hoàn toàn Không gian NFT",
+    "Built": "Được xây dựng trên nhiều chuỗi, thị trường NFT do bạn triển khai, sở hữu và quản lý",
+    "NFTs make": "NFT làm cho Internet có thể sở hữu được vì bạn có thể tạo ra bảo mật kỹ thuật số. Chúng tôi chỉ đang cào cấu bề mặt của nền kinh tế thu thập và tạo web 3.0 sẽ trở thành"
+  },
+  "productsLang": {
+    "Products": "Các sản phẩm"
+  },
+  "howToEarnLang": {
+    "How": "Cách kiếm tiền",
+    "Unlesh": "Khám phá sức mạnh của thị trường NFT phi tập trung"
+  },
+  "cardLang": {},
+  "deployLang": {
+    "General": "Thị trường chung",
+    "Music": "Music Makertplace",
+    "Short": "Thị trường video ngắn",
+    "Game": "Mục trò chơi Maketplace",
+    "Adult": "Thị trường Người lớn",
+    "Fan": "Thị trường người hâm mộ",
+    "Subcription": "Thị trường đăng ký",
+    "10k": "Thị trường hình đại diện 10k"
+  },
+  "easyStepLang": {
+    "Easy": "Các bước đơn giản để bắt đầu"
+  },
+  "multipleBlackChainLang": {
+    "Multiple": "Nhiều bộ hỗ trợ BlackChain",
+    "Xircus": "Xircus Hỗ trợ triển khai đa chuỗi cho nhiều lựa chọn blockchain"
+  },
+  "builtInLang": {
+    "Built-in":"Các tính năng tích hợp và bổ sung"
+  },
+  "incomeCalculatorLang":{
+    "Income":"Máy tính thu nhập",
+    "Get":"Bắt đầu miễn phí",
+    "No":"Không có chi phí ẩn",
+    "$1":"Chỉ phí $ 1 bạc hà",
+    "Owner":"Chủ sở hữu đã định cấu hình phí giao dịch bắt đầu từ 2%",
+    "Not":"Không lấy tiền bản quyền",
+    "Calculator":"Máy tính thu nhập",
+    "example":"ví dụ sử dụng 1.000.000 NFT vật phẩm Minted. thanh toán bằng usdc",
+    "Whats":"Phí đúc tiền trên thị trường của bạn là bao nhiêu",
+    "Marketplace":"Chủ sở hữu thị trường",
+    "Data":"Nhà cung cấp dữ liệu",
+    "Ambassador":"Đại sứ",
+    "Xircus":"Xircus"
+  },
+  "footerLang":{
+    "All":"Bảo lưu quyền năm 2021 | Xircus Pte.Ltd",
+    "Blog":"Blog",
+    "Resources":"Resources",
+    "Term":"Term and Condition",
+    "Privacy":"Privacy",
+    "Contact":"Contact Us"
+  }
+
+}

@@ -1,0 +1,70 @@
+{
+  "navBarLang":{
+    "XIRCUS":"XIRCUS",
+    "FEATURES":"MGA TAMPOK",
+    "GET STARTED":"MAGSIMULA",
+    "HOW TO EARN":"PAANO KUMITA"
+  },
+  "heroLang":{
+    "XIRCUS":"XIRCUS",
+    "Start":"Simulan ang iyong negosyo sa NFT ngayon!",
+    "Deploy":"I-deploy ang iyong nako-customize na NFT marketplace sa loob ng ilang minuto na kasama ng mga kahanga-hangang feature",
+    "DeployButton":"I-deploy ang Marketplace",
+    "GetButton":"Kunin ang XircusPunks para sa",
+    "GetButton2":"Maagang Pag-access",
+    "As":"Tulad ng Nakikita Sa"
+
+  },
+  "takeFullControlLang": {
+    "Take": "Kunin ang buong Kontrol ng NFT Space",
+    "Built": "Binuo sa maraming chain, NFT marketplace na na-deploy, pagmamay-ari at pinamamahalaan mo",
+    "NFTs make": "Ginagawa ng mga NFT na pagmamay-ari ang internet dahil maaari kang lumikha ng digital na seguridad. Sinisilip lang namin kung ano ang magiging ekonomiya ng tagalikha at koleksyon ng web 3.0"
+  },
+  "productsLang": {
+    "Products": "Mga Produkto"
+  },
+  "howToEarnLang": {
+    "How": "Paano Kumita",
+    "Unlesh": "Ilabas ang kapangyarihan ng desentralisadong NFT marketplace"
+  },
+  "cardLang": {},
+  "deployLang": {
+    "General": "Pangkalahatang Pamilihan",
+    "Music": "Marketplace ng Musika",
+    "Short": "Maikling Video Makeplace",
+    "Game": "Marketplace ng Item ng Laro",
+    "Adult": "Marketplace ng Pang-adulto",
+    "Fan": "marketplace ng Fan",
+    "Subcription": "Marketplace ng Subscription",
+    "10k": "10k Avatar Marketplace"
+  },
+  "easyStepLang": {
+    "Easy": "Mga Madaling Hakbang para Magsimula"
+  },
+  "multipleBlackChainLang": {
+    "Multiple": "Maramihang Suporta sa BlackChain",
+    "Xircus": "uportahan ng Xircus ang multi-chain deployment para sa pagpili ng Maramihang blockchain"
+  },
+  "builtInLang": {
+    "Built-in":"Built-in at Add-On na Mga Tampok"
+  },
+  "incomeCalculatorLang":{
+    "Income":"Calculator ng Kita",
+    "Get":"Magsimula nang libre",
+    "No":"Walang nakatagong gastos",
+    "$1":"$1 mint fee lang",
+    "Owner":"Na-configure ng may-ari ang mga bayarin sa transaksyon simula sa 2%",
+    "Not":"Not taking royalty fess",
+    "Calculator":"Hindi kumukuha ng royalty fess",
+    "example":"Halimbawa gamit ang 1,000,000 NFT item Minted. binayaran gamit ang usdc",
+    "Whats":"Ano ang iyong marketplace mint fee",
+    "Marketplace":"May-ari ng Marketplace",
+    "Data":"Tagabigay ng Data",
+    "Ambassador":"Ambassador",
+    "Xircus":"Xircus"
+  },
+  "footerLang":{
+    "All":"All Right Reserved 2021 | Xircus Pte.Ltd"
+  }
+
+}

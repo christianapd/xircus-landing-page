@@ -1,0 +1,74 @@
+{
+  "navBarLang": {
+    "XIRCUS": "XIRCUS",
+    "FEATURES": "FEATURES",
+    "GET STARTED": "GET STARTED",
+    "HOW TO EARN": "HOW TO EARN"
+  },
+  "heroLang": {
+    "XIRCUS": "XIRCUS",
+    "Start": "Start your NFT business today!",
+    "Deploy": "Deploy your customizable NFT marketplace in minutes bundled with awesome features",
+    "DeployButton": "Deploy Marketplace",
+    "GetButton": "Get XircusPunks for",
+    "GetButton2": "Early Access",
+    "As": "As Seen On"
+  },
+  "takeFullControlLang": {
+    "Take": "Take full Control of the NFT Space",
+    "Built": "Built on multiple chain, NFT marketplace that are deployed, owned and governed by you",
+    "NFTs make": "NFTs make the internet ownable because you can create digital security. We're just Scratchingthe surface of what the web 3.0 creator and collection economy is going to be"
+  },
+  "productsLang": {
+    "Products": "Products"
+  },
+  "howToEarnLang": {
+    "How": "How To Earn",
+    "Unlesh": "Unlesh the power of decentralized NFT marketplace"
+  },
+  "cardLang": {},
+  "deployLang": {
+    "General": "General Maketplace",
+    "Music": "Music Maketplace",
+    "Short": "Short Video Maketplace",
+    "Game": "Game Item Maketplace",
+    "Adult": "Adult Maketplace",
+    "Fan": "Fan Maketplace",
+    "Subcription": "Subcription Maketplace",
+    "10k": "10k Avatar Maketplace"
+  },
+  "easyStepLang": {
+    "Easy": "Easy Steps to Get Started"
+  },
+  "multipleBlackChainLang": {
+    "Multiple": "Multiple BlackChain Suppor",
+    "Xircus": "Xircus Support multi-chain deployment for Multiple blockchain selection"
+  },
+  "builtInLang": {
+    "Built-in":"Built-in and Add-On Features"
+  },
+  "incomeCalculatorLang":{
+    "Income":"Income Calculator",
+    "Get":"Get Started for free",
+    "No":"No hidden costs",
+    "$1":"$1 mint fee only",
+    "Owner":"Owner configured transaction fees starting at 2%",
+    "Not":"Not taking royalty fess",
+    "Calculator":"Income Calculator",
+    "example":"example using 1,000,000 NFT item Minted. paid with usdc",
+    "Whats":"What's your marketplace mint fee ",
+    "Marketplace":"Marketplace Owner",
+    "Data":"Data Provider",
+    "Ambassador":"Ambassador",
+    "Xircus":"Xircus"
+  },
+  "footerLang":{
+    "All":"Right Reserved 2021 | Xircus Pte.Ltd",
+    "Blog":"Blog",
+    "Resources":"Resources",
+    "Term":"Term and Condition",
+    "Privacy":"Privacy",
+    "Contact":"Contact Us"
+  }
+
+}

@@ -95,7 +95,7 @@ export const flexStyle = {
 
 export const linkStyle = {
   navBarLinkStyle: {
-    mx: 3,
+    mr:5,
     my: 'auto',
     fontWeight: 800
   },
@@ -111,8 +111,9 @@ export const boxStyle = {
     as: 'section',
     zIndex: 999,
     sx: { position: '-webkit-sticky', /* Safari */ position: 'sticky', top: '0', },
-    bgColor: 'rgba(255,255,255,0.3)'
+    bgColor: 'rgba(255,255,255,0.1)'
   },
+  
   NFTmakeBoxStyle: {
     mt: '10%',
     w: '60%',
@@ -133,15 +134,16 @@ export const buttonStyle = {
   navBarButtonStyle: {
     ml: '20px',
     borderRadius: 900,
-    bgColor: 'rgba(0,0,0,0.4)'
+    bgColor: 'rgba(0,0,0,0.4)',
+    w:'110px'
   },
 
   heroButton: {
     color: 'white',
-    w: { base: '150px', sm: '180px', md: '200px' },
+    w: { base: '150px', sm: '180px', md: '230px' },
     h: '50px',
     bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)',
-    fontSize: '12px',
+    fontSize: { base: '8px', sm: '10px', md: '12px' },
     borderRadius: 30,
     mr: '15px',
     fontWeight: 900,
@@ -226,7 +228,8 @@ export const takeFullControlCardStyle = {
     position: 'relative'
   },
   imageIcon: {
-    h: '120px'
+    h: '120px',
+    fallbackSrc:'https://via.placeholder.com/120'
   },
   cardText: {
 
@@ -288,7 +291,8 @@ export const cardsCardStyle={
   },
   imageIcon:{
     h:'120px', 
-    mb:'30px' 
+    mb:'30px' ,
+    fallbackSrc:'https://via.placeholder.com/120'
   },
   cardHeading:{
     fontSize:'20px',
@@ -304,7 +308,8 @@ export const multipleBlackChainCardStyle={
     align:'center'
   },
   imageIcon:{
-    h:'50px'
+    h:'50px',
+    fallbackSrc:'https://via.placeholder.com/50'
   },
   cardText:{
 
@@ -330,7 +335,8 @@ export const builtInCardStyle={
   },
   imageIcon:{
     h:'180px',
-    mb:'30px'
+    mb:'30px',
+    fallbackSrc:'https://via.placeholder.com/180'
   },
   cardText:{
     fontSize:'20px'
@@ -378,31 +384,3 @@ export const gridStyle = {
     gap:5
   }
 }
-// export const itemAvatarStyle = {
-
-// }
-
-// export const itemMetaStyle = {
-// name,
-// desc,
-// price,
-// }
-
-
-// // Collections
-// export const ColListStyle = {
-//  wrap,
-//  title
-// }
-
-// export const ColCardStyle = {
-//   cover,
-//   avatar,
-//   name,
-//   address
-// }
-
-// export const itemListStyle = { 
-//   wrap, 
-//   title: typoStyle.title
-// }

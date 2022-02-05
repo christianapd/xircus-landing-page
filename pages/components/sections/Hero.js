@@ -26,26 +26,26 @@ const Icons = ({ icon }) => (
 
 )
 
-export default function Hero() {
+export default function Hero({icon, translate}) {
   return (
     <Box as="section">
       <Container {...containerStyle.ConLg} mt="10px" centerContent>
-        <Image src="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" h="70px" placeholder='https://via.placeholder.com/70' />
-        <Heading {...typoStyle.headline}>XIRCUS</Heading>
-        <Heading {...typoStyle.headline}>Start your NFT business today !</Heading>
-        <Heading {...typoStyle.subheadline}>Deploy your customizable NFT marketplace in minutes bundled with awesome features</Heading>
+        <Image src={icon} h="70px"/>
+        <Heading {...typoStyle.headline}>{translate('XIRCUS')}</Heading>
+        <Heading {...typoStyle.headline}>{translate('Start')}</Heading>
+        <Heading {...typoStyle.subheadline}>{translate('Deploy')}</Heading>
         <Circle as="button" {...buttonStyle.heroPlayButton}><FaPlay color="red" /></Circle>
         <HStack mb="15%">
           <Button {...buttonStyle.heroButton}>
-            Deploy Marketplace
+          {translate('DeployButton')}
           </Button>
           <Box as="button" {...buttonStyle.heroButton} >
-            <Text>Get XircusPunks for </Text>
-            <Text>Early Access</Text>
+            <Text>{translate('GetButton')} </Text>
+            <Text>{translate('GetButton2')}</Text>
           </Box>
         </HStack>
         <Stack {...stackStyle.heroAsSeenOnstackStyle}>
-          <Heading {...typoStyle.asSeenOn}>As Seen On</Heading>
+          <Heading {...typoStyle.asSeenOn}>{translate('As')}</Heading>
           {(asSeenOnImages || []).map((link) => (<Icons{...link} />))}
         </Stack>
       </Container>

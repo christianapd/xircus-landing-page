@@ -72,12 +72,12 @@ const ProductCard = ({ icon, title, desc }) => (
   </Box>
 )
 
-export default function Products() {
+export default function Products({translate}) {
   return (
     <Box as="section">
       <Container {...containerStyle.conXl}  centerContent>
         <Box w="100%">
-          <Heading {...typoStyle.productHeading}>Products</Heading>
+          <Heading {...typoStyle.productHeading}>{translate('Products')}</Heading>
         </Box>
         <Box>
           <Grid {...gridStyle.productGridStyle}>
