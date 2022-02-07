@@ -33,8 +33,9 @@ export default function Home() {
 
 
   return (
-    <Box bgColor="black" bgImage="url('https://ucdf126b00a0ef0dfaa665809c92.previews.dropboxusercontent.com/p/thumb/ABYNKhRdPbCtRaMTO7wtH-G0IIqfPUOVYsT0iQvamPFmiiMNL2C7hMjJE0I3b_QJi-sWwj68QT2Bv_W4TjAk5Xss4ALU6jApRx36bRLew-qRkZ_oHa3gHbSvguNW4fckVyo9DJdEwrOpOsZ9YIlg_SgIviZgAeMy_fNNj_8QV3vebFHKz-NOlIFqvS33V7C1uuCqJsTOlVZRHy-mq4XU0FN3h2D85RHChNyDvCbiTD2jihr_lku8_WRkHirKwmBHRkQzZZwWThJGr_WFahHXIbYBoO607D2FHUvWJGLr2LjKm_i1dvMsF4vOyno6UngbY0FdTQhI2zY_PzymsV93iX02owwDdHrirPXQxG56eHNhzmOGEQ877RXte7Pkgefs5ao/p.png')"  
+    <Box bgColor="black" bgImage="url('https://uc9350dc0890b88efa93c6ec31f2.previews.dropboxusercontent.com/p/thumb/ABbXOUSdprtFmRfwAyxk3aemm4kATVO90JbFYXn3DhN59BdX8dQaoU9kgfOFnOZCaD5NonDXPMsJDTBRkOuMmaRFF49lPo8fQK2sJRWoKmLGwmW_-gWirqKz3oDMykGyfTKXaii4iT-1enJ4PIKI1E54GYwA9opRWp_A9I5soLVCgzBVycZGu16zq55ixuZCP63yQMLQSv0uvutifuS81PRXCNsTboWrqwDIc7LMKuYA-FD-XyX0QKiJpSxpEyY_xj0utF4pbp0sshFouMb2aDv_pWj9dPFI6_Gem56x8a9GpxGbMCiD-YSomBNF1RSiTHdIcBvF7w83OYzHmwYQ4npA-EAyD4xPpXZYhsWQYKRKbCqoySIEeUZmKH4wEIq-e5Y/p.png')"  
     bgRepeat="no-repeat"
+    bgSize="cover"
     >
       <NavBar icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" translate={NavBarTranslated}/>
       <Hero icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" translate={HeroTranslated}/>

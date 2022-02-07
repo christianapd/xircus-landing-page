@@ -18,7 +18,11 @@
   "takeFullControlLang": {
     "Take": "Kunin ang buong Kontrol ng NFT Space",
     "Built": "Binuo sa maraming chain, NFT marketplace na na-deploy, pagmamay-ari at pinamamahalaan mo",
-    "NFTs make": "Ginagawa ng mga NFT na pagmamay-ari ang internet dahil maaari kang lumikha ng digital na seguridad. Sinisilip lang namin kung ano ang magiging ekonomiya ng tagalikha at koleksyon ng web 3.0"
+    "NFTs make": "Ginagawa ng mga NFT na pagmamay-ari ang internet dahil maaari kang lumikha ng digital na seguridad. Sinisilip lang namin kung ano ang magiging ekonomiya ng tagalikha at koleksyon ng web 3.0",
+    "Deploy on multiple blockchain protocols":"I-deploy sa maramihang mga protocol ng blockchain",
+    "Accept tokens as payment for NFTs":"Tanggapin ang mga token bilang bayad para sa mga NFT",
+    "Configure with any decentralized exchange":"I-configure sa anumang desentralisadong palitan",
+    "Deploy and manage multiple collections":"I-deploy at pamahalaan ang maraming koleksyon"
   },
   "productsLang": {
     "Products": "Mga Produkto"
@@ -64,7 +68,13 @@
     "Xircus":"Xircus"
   },
   "footerLang":{
-    "All":"All Right Reserved 2021 | Xircus Pte.Ltd"
+    "All":"Right Reserved 2021 | Xircus Pte.Ltd",
+    "Blog":"Blog",
+    "Resources":"Mga Mapagkukunan",
+    "Term":"Termino at Kundisyon",
+    "Privacy":"Privacy",
+    "Contact":"Pagkapribado"
+    
   }
 
 }

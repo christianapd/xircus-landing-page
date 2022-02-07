@@ -17,7 +17,12 @@
   "takeFullControlLang": {
     "Take": "Kiểm soát hoàn toàn Không gian NFT",
     "Built": "Được xây dựng trên nhiều chuỗi, thị trường NFT do bạn triển khai, sở hữu và quản lý",
-    "NFTs make": "NFT làm cho Internet có thể sở hữu được vì bạn có thể tạo ra bảo mật kỹ thuật số. Chúng tôi chỉ đang cào cấu bề mặt của nền kinh tế thu thập và tạo web 3.0 sẽ trở thành"
+    "NFTs make": "NFT làm cho Internet có thể sở hữu được vì bạn có thể tạo ra bảo mật kỹ thuật số. Chúng tôi chỉ đang cào cấu bề mặt của nền kinh tế thu thập và tạo web 3.0 sẽ trở thành",
+    "Deploy on multiple blockchain protocols":"Triển khai trên nhiều giao thức blockchain",
+    "Accept tokens as payment for NFTs":"Chấp nhận mã thông báo để thanh toán cho NFT",
+    "Configure with any decentralized exchange":"Định cấu hình với bất kỳ sàn giao dịch phi tập trung nào",
+    "Deploy and manage multiple collections":"Triển khai và quản lý nhiều bộ sưu tập"
+
   },
   "productsLang": {
     "Products": "Các sản phẩm"
@@ -65,10 +70,10 @@
   "footerLang":{
     "All":"Bảo lưu quyền năm 2021 | Xircus Pte.Ltd",
     "Blog":"Blog",
-    "Resources":"Resources",
-    "Term":"Term and Condition",
-    "Privacy":"Privacy",
-    "Contact":"Contact Us"
+    "Resources":"Tài nguyên",
+    "Term":"Điều khoản và điều kiện",
+    "Privacy":"Sự riêng tư",
+    "Contact":"Liên hệ chúng tôi"
   }
 
 }

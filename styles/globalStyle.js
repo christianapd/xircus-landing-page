@@ -37,7 +37,8 @@ export const typoStyle = {
   },
   navBartypoStyle: {
     my: 'auto',
-    color: 'orange'
+    color: 'orange',
+    fontSize:'25px'
   },
   productHeading:{
     color:'white',
@@ -70,7 +71,7 @@ export const stackStyle = {
 
 export const imageStyle = {
   navBarImageStyle: {
-    h: '70px',
+    h: '50px',
     my: 'auto'
   },
   deployImageStyle:{
@@ -111,7 +112,10 @@ export const boxStyle = {
     as: 'section',
     zIndex: 999,
     sx: { position: '-webkit-sticky', /* Safari */ position: 'sticky', top: '0', },
-    bgColor: 'rgba(255,255,255,0.1)'
+    bgColor: 'rgba(255,255,255,0.1)',
+    h:'70px'
+
+
   },
   
   NFTmakeBoxStyle: {
@@ -199,7 +203,9 @@ export const containerStyle = {
   },
   navBarContainerStyle: {
     maxW: 'container.xl',
-    h: '70px'
+    h:'60px',
+    pt:'10px',
+
   }
 
 

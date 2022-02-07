@@ -2,7 +2,7 @@ import { Box, Container, Flex, Grid, Heading, HStack, Image, Text, VStack, Stack
 import { typoStyle, containerStyle, HStackStyle, buttonStyle, gridStyle, linkStyle } from '../../styles/globalStyle'
 import { FaTelegramPlane, FaFacebook, FaTwitter, FaYoutube, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
-const Links = ['Blog', 'Resources', 'Term and Condition', 'Privacy', 'Contact Us']
+const Links = ['Blog', 'Resources', 'Term', 'Privacy', 'Contact']
 
 export default function Footer({translate}) {
   return (
@@ -23,7 +23,7 @@ export default function Footer({translate}) {
               <FaLinkedin />
             </HStack>          
             <HStack spacing={5} mx="auto" >
-              {(Links || []).map((data, key) => ( <Link {...linkStyle.footerLinkStyle} >{data}</Link>))}
+              {(Links || []).map((data, key) => ( <Link {...linkStyle.footerLinkStyle} >{translate(data)}</Link>))}
             </HStack>
           </Grid>
         </Box>

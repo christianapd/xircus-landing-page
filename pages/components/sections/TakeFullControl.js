@@ -19,11 +19,11 @@ const takeFullControlData = [
     text: 'Deploy and manage multiple collections'
   }
 ]
-const TakeFullControlCard = ({icon,text }) => (
+const TakeFullControlCard = ({icon,text, Translate }) => (
   <Box {...takeFullControlCardStyle.outerBox}>
     <Box {...takeFullControlCardStyle.wrapperBox}>
       <Image src={icon} {...takeFullControlCardStyle.imageIcon} />
-      <Text {...takeFullControlCardStyle.cardText}>{text}</Text>
+      <Text {...takeFullControlCardStyle.cardText}>{Translate(text)}</Text>
     </Box>
     <Box {...takeFullControlCardStyle.absuluteBox} />
   </Box>
@@ -37,7 +37,7 @@ export default function TakeFullControl({translate}) {
         <Text {...typoStyle.subtitle}>{translate('Built')}</Text>
         <Box>
           <Grid {...gridStyle.takeFullControlGridStyle}>
-            {(takeFullControlData || []).map((data, key) => ( <TakeFullControlCard {...data}/> ))}
+            {(takeFullControlData || []).map((data, key) => ( <TakeFullControlCard {...data} Translate={translate} /> ))}
           </Grid>
         </Box>
 

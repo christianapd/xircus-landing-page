@@ -17,10 +17,25 @@
   "takeFullControlLang": {
     "Take": "Take full Control of the NFT Space",
     "Built": "Built on multiple chain, NFT marketplace that are deployed, owned and governed by you",
-    "NFTs make": "NFTs make the internet ownable because you can create digital security. We're just Scratchingthe surface of what the web 3.0 creator and collection economy is going to be"
+    "NFTs make": "NFTs make the internet ownable because you can create digital security. We're just Scratchingthe surface of what the web 3.0 creator and collection economy is going to be",
+    "Deploy on multiple blockchain protocols":"Deploy on multiple blockchain protocols",
+    "Accept tokens as payment for NFTs":"Accept tokens as payment for NFTs",
+    "Configure with any decentralized exchange":"Configure with any decentralized exchange",
+    "Deploy and manage multiple collections":"Deploy and manage multiple collections"
   },
   "productsLang": {
-    "Products": "Products"
+    "Products": "Products",
+    "Dashboard":"Dashboard",
+    "Xircuse Assets overview":"Xircuse Assets overview",
+    "Market Explorer":"Market Explorer",
+    "Discover marketplaces and games mint and collect NFT Items":"Discover marketplaces and games mint and collect NFT Items",
+    "XircusPunks":"XircusPunks",
+    "Exclusive DAO Avatar":"Exclusive DAO Avatar",
+    "Lunchpad":"Lunchpad",
+    "Decentralized Token Auctions":"Decentralized Token Auctions",
+    "Provider Center":"Provider Center",
+    "Hot NFT Marketplace Data":"Hot NFT Marketplace Data",
+    "Token Factory":"Token Factory"
   },
   "howToEarnLang": {
     "How": "How To Earn",

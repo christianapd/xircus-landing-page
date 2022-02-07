@@ -17,7 +17,6 @@ import {
   useDisclosure,
   Stack,
   Select,
-  option,
   Container,
   Heading,
 } from '@chakra-ui/react';
@@ -31,7 +30,7 @@ export default function navbar({ icon, translate }) {
 
   return (
     <Box {...boxStyle.navBarBoxStyle}>
-      <Container {...containerStyle.navBarContainerStyle}>
+      <Container {...containerStyle.navBarContainerStyle} >
         <HStack>
           <Flex>
             <Image src={icon} {...imageStyle.navBarImageStyle} />
