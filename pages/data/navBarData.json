@@ -1,0 +1,30 @@
+{
+  "navBar": [
+    {
+      "label": "FEATURES",
+      "href": "#"
+    },
+    {
+      "label": "GET STARTED",
+      "href": "#"
+    },
+    {
+      "label": "HOW TO EARN",
+      "href": "#"
+    }
+  ],
+  "language": [
+    {
+      "label": "English",
+      "value": "en-US"
+    },
+    {
+      "label": "Tagalog",
+      "value": "ph"
+    },
+    {
+      "label": "Tiếng Việt",
+      "value": "vn"
+    }
+  ]
+}

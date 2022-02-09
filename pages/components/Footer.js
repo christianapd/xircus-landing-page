@@ -2,9 +2,7 @@ import { Box, Container, Flex, Grid, Heading, HStack, Image, Text, VStack, Stack
 import { typoStyle, containerStyle, HStackStyle, buttonStyle, gridStyle, linkStyle } from '../../styles/globalStyle'
 import { FaTelegramPlane, FaFacebook, FaTwitter, FaYoutube, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
-const Links = ['Blog', 'Resources', 'Term', 'Privacy', 'Contact']
-
-export default function Footer({translate}) {
+export default function Footer({footerData,translate}) {
   return (
     <Box as="section" pb={1} >
       <Container {...containerStyle.conXl} mb="10px" centerContent>
@@ -23,7 +21,7 @@ export default function Footer({translate}) {
               <FaLinkedin />
             </HStack>          
             <HStack spacing={5} mx="auto" >
-              {(Links || []).map((data, key) => ( <Link {...linkStyle.footerLinkStyle} >{translate(data)}</Link>))}
+              {(footerData || []).map((data, key) => ( <Link href={data.href} {...linkStyle.footerLinkStyle} >{translate(data.label)}</Link>))}
             </HStack>
           </Grid>
         </Box>

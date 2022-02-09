@@ -25,32 +25,92 @@
     "Deploy and manage multiple collections":"I-deploy at pamahalaan ang maraming koleksyon"
   },
   "productsLang": {
-    "Products": "Mga Produkto"
+    "Products": "Mga Produkto",
+    "Dashboard": "Dashboard",
+    "Xircuse Assets overview": "Pangkalahatang-ideya ng Xircus Assets",
+    "Market Explorer": "Market Explorer",
+    "Discover marketplaces and games mint and collect NFT Items": "Discover marketplaces and games mint and collect NFT Items",
+    "XircusPunks": "XircusPunks",
+    "Exclusive DAO Avatar": "Exclusive DAO Avatar",
+    "Lunchpad": "Lunchpad",
+    "Decentralized Token Auctions": "Decentralized Token Auctions",
+    "Provider Center": "Provider Center",
+    "Hot NFT Marketplace Data": "Hot NFT Marketplace Data",
+    "Token Factory": "Token Factory",
+    "Deploy ERC20/BEP20 Tokens": "Deploy ERC20/BEP20 Tokens",
+    "Governance": "Governance",
+    "DAO Voting and loung": "DAO Voting and loung",
+    "Deployer Studio": "Deployer Studio",
+    "Deploy your or Community NFT MArketplace": "Deploy your or Community NFT MArketplace",
+    "Xircus Skins": "Xircus Skins",
+    "Buy and Sell Marketplace Skins": "Buy and Sell Marketplace Skins",
+    "Stake And Farm": "Stake And Farm",
+    "Earn Staking Rewards": "Earn Staking Rewards",
+    "NFT Meta Uploader": "NFT Meta Uploader",
+    "Upload NFT META to IPFS": "Upload NFT META to IPFS",
+    "Leaderboard": "Leaderboard",
+    "View Marketplace Performance": "View Marketplace Performance"
   },
   "howToEarnLang": {
     "How": "Paano Kumita",
-    "Unlesh": "Ilabas ang kapangyarihan ng desentralisadong NFT marketplace"
+    "Unlesh": "Ilabas ang kapangyarihan ng desentralisadong NFT marketplace",
+    "Title": "As DAO",
+    "Descrition": "Get early access on product , vip louge, newlatters, early opportunities, discount and membership rewards",
+    "Title2": "As Marketplace Owner",
+    "Descrition2": "Deploy your NFT marketplace, costumize your fees and themes, create staking opportunities for your costumers",
+    "Title3": "As Creator",
+    "Descrition3": "Mint your NFTs as $1 for listing/storage fee and 2.5% transaction fee for every purcase",
+    "Title4": "As Provider",
+    "Descrition4": "Earn from deploying APIs to cached data for marketplace",
+    "Title5": "As Collector",
+    "Descrition5": "Collect from different marketplace and manage collectibles via Xircus Mobile and Xircus TV apps",
+    "Title6": "As Ambassador",
+    "Descrition6": "Earn from helping creators mint their creation"
   },
-  "cardLang": {},
+  "cardsLang": {
+    "Title": "NFTs",
+    "Description": "Fully customizable NFT collection for single or multiple edition with built-in sale, royalty and split features",
+    "Title2": "Marketplaces",
+    "Description2": "Deploy your personal or community marketplace with a click of a button with built-in stats",
+    "Title3": "Tokens",
+    "Description3": "Pay using your favorite crytocurrency configured with your exchange of choice",
+    "Title4": "Packs",
+    "Description4": "Loots boxes of NFT items at a discounted price",
+    "Title5": "Staking",
+    "Description5": "Deploy staking contracts that your marketplace users can use",
+    "Title6": "Drops",
+    "Description6": "Scheduled drops for your users to easily claim NFTs and tokens",
+    "Title7": "Skins",
+    "Description7": "Premium skins to overide the look of your website anytime",
+    "Title8": "Custom Domain",
+    "Description8": "Use xircus custom domain or your own domains for personalized branding"
+  },
   "deployLang": {
-    "General": "Pangkalahatang Pamilihan",
-    "Music": "Marketplace ng Musika",
-    "Short": "Maikling Video Makeplace",
-    "Game": "Marketplace ng Item ng Laro",
-    "Adult": "Marketplace ng Pang-adulto",
-    "Fan": "marketplace ng Fan",
-    "Subcription": "Marketplace ng Subscription",
-    "10k": "10k Avatar Marketplace"
+    "title": "Pangkalahatang Pamilihan",
+    "Label": "Marketplace ng Musika",
+    "Label2": "Maikling Video Makeplace",
+    "Label3": "Marketplace ng Item ng Laro",
+    "Label4": "Marketplace ng Pang-adulto",
+    "Label5": "marketplace ng Fan",
+    "Label6": "Marketplace ng Subscription",
+    "Label7": "10k Avatar Marketplace"
   },
   "easyStepLang": {
-    "Easy": "Mga Madaling Hakbang para Magsimula"
+    "Easy": "Mga Madaling Hakbang para Magsimula",
+    "Label": "Deploy a Maketplace",
+    "Label2": "Deploy a Collection",
+    "Label3": "Mint s NFT"
   },
   "multipleBlackChainLang": {
     "Multiple": "Maramihang Suporta sa BlackChain",
-    "Xircus": "uportahan ng Xircus ang multi-chain deployment para sa pagpili ng Maramihang blockchain"
+    "Xircus": "Suportahan ng Xircus ang multi-chain deployment para sa pagpili ng Maramihang blockchain"
   },
   "builtInLang": {
-    "Built-in":"Built-in at Add-On na Mga Tampok"
+    "Built-in":"Built-in at Add-On na Mga Tampok",
+    "Staking": "Staking",
+    "Randomizer": "Randomizer",
+    "NFT Airdrop": "NFT Airdrop",
+    "Token Auctions": "Token Auctions"
   },
   "incomeCalculatorLang":{
     "Income":"Calculator ng Kita",

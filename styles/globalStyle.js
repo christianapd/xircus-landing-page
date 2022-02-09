@@ -1,15 +1,36 @@
-import { color } from "@chakra-ui/react"
-import MultipleBlackChain from "../pages/components/sections/MultipleBlackChain"
+
+export const colorStyle = {
+  primary: {
+    color: 'white'
+  },
+  secondary: {
+    color: 'black'
+  },
+  title: {
+    color: 'white'
+  },
+  subTitle: {
+    color: 'white'
+  },
+  description: {
+    color: 'white'
+
+  },
+  headline: {
+    color: 'white'
+  },
+  subheadline: {
+    color: 'white'
+  },
+}
 
 export const typoStyle = {
   headline: {
-    color: 'white',
     fontSize: { base: '30px', sm: '50px', md: '65px' },
     mb: '10px',
     textAlign: 'center',
   },
   subheadline: {
-    color: 'white',
     fontSize: { base: '15px', sm: '20px', md: '30px' },
     mb: '10px',
     w: "65%",
@@ -18,32 +39,30 @@ export const typoStyle = {
 
   },
   title: {
-    color: 'white',
     fontSize: '35px',
     mb: '10px',
     textAlign: 'center',
 
   },
   subtitle: {
-    color: 'gray.100',
     fontSize: '20px',
     textAlign: 'center',
 
   },
   asSeenOn: {
-    color: 'White',
     fontSize: '25px',
-    my: 'auto'
+    my: 'auto',
+    textAlign: 'center'
   },
   navBartypoStyle: {
     my: 'auto',
     color: 'orange',
-    fontSize:'25px'
+    fontSize: '25px'
   },
-  productHeading:{
-    color:'white',
-    mb:'30px',
-    textAlign:'left'
+  productHeading: {
+    color: 'white',
+    mb: '30px',
+    textAlign: 'left'
   }
 
 }
@@ -54,18 +73,18 @@ export const stackStyle = {
     my: 'auto',
     spacing: 5
   },
-  incomeCalculatorStactStyle:{
-    spacing:{ base: 3, sm: 4, md: 6 },
-    direction:{ base: 'column', sm: 'column', md: 'row' },
-     mb:'4%',
-     color:'white'
+  incomeCalculatorStactStyle: {
+    spacing: { base: 3, sm: 4, md: 6 },
+    direction: { base: 'column', sm: 'column', md: 'row' },
+    mb: '4%',
+    color: 'white'
   },
-  incomeCalculatorInnerStactStyle:{
-    bgColor:'gray.900',
-    borderTop:'1px solid gray',
-    w:{ base: '350px', sm: '500px', md: '700px' },
-    p:'20px',
-    borderRadius:20,
+  incomeCalculatorInnerStactStyle: {
+    bgColor: 'gray.900',
+    borderTop: '1px solid gray',
+    w: { base: '350px', sm: '500px', md: '700px' },
+    p: '20px',
+    borderRadius: 20,
   }
 }
 
@@ -74,16 +93,16 @@ export const imageStyle = {
     h: '50px',
     my: 'auto'
   },
-  deployImageStyle:{
-    h:{base:'160px',sm:'400px',md:'550px'}, 
-    objectFit:'cover',
-    fallbackSrc:'https://via.placeholder.com/550'  
+  deployImageStyle: {
+    h: { base: '160px', sm: '400px', md: '550px' },
+    objectFit: 'cover',
+    fallbackSrc: 'https://via.placeholder.com/550'
   },
-  easyStepImageStyle:{
-    h:{ base: '200px', sm: '350px', md: '550px' },
-    w:'100%',
-    objectFit:'cover',
-    fallbackSrc:'https://via.placeholder.com/550'  
+  easyStepImageStyle: {
+    
+    w: 'full',
+    objectFit: 'cover',
+    fallbackSrc: 'https://via.placeholder.com/550'
   }
 }
 export const flexStyle = {
@@ -96,12 +115,12 @@ export const flexStyle = {
 
 export const linkStyle = {
   navBarLinkStyle: {
-    mr:5,
+    mr: 5,
     my: 'auto',
     fontWeight: 800
   },
-  footerLinkStyle:{
-    fontSize:'13px'
+  footerLinkStyle: {
+    fontSize: '13px'
   }
 
 }
@@ -112,12 +131,10 @@ export const boxStyle = {
     as: 'section',
     zIndex: 999,
     sx: { position: '-webkit-sticky', /* Safari */ position: 'sticky', top: '0', },
-    bgColor: 'rgba(255,255,255,0.1)',
-    h:'70px'
-
-
+    //bgColor: 'rgba(255,255,255,0.1)',
   },
   
+
   NFTmakeBoxStyle: {
     mt: '10%',
     w: '60%',
@@ -127,11 +144,20 @@ export const boxStyle = {
     color: 'white',
     textAlign: 'center',
     borderRadius: '30'
+  },
+  easyStepBoxStyle:{
+    as:'section',
+    py:'80px',
+    mb:'5%',
+    bgGradient:'linear(to-br, #FC8181,#4FD1C5,#9F7AEA,)',
+    style:{
+      clipPath: 'polygon(0 0, 100% 7%, 100% 100%, 0 95%)'
+    }
   }
 }
 
 export const HStackStyle = {
-  
+
 }
 
 export const buttonStyle = {
@@ -139,7 +165,7 @@ export const buttonStyle = {
     ml: '20px',
     borderRadius: 900,
     bgColor: 'rgba(0,0,0,0.4)',
-    w:'110px'
+    w: '110px'
   },
 
   heroButton: {
@@ -164,30 +190,23 @@ export const buttonStyle = {
   },
 
   DeployButton: {
-    color:'white',
-    variant: 'ghost',
-    color:'white',
-    borderBottom: '1px solid white',
-    borderRadius: 0,
     w: { base: '150px', sm: '250px', md: '350px' },
     h: { base: '30px', sm: '50px', md: '70px' },
     fontSize: { base: '13px', sm: '16px', md: '23px' },
-    _hover:{
-
-    }
+    _selected: { bg: 'red' ,borderBottom: '1px solid red',},
+    borderBottom: '1px solid gray',
+    fontWeight: 'bold',
+    p:'5px'
   },
 
   EasyStepButton: {
-    variant: 'ghost',
-    color:'white',
-    borderBottom: '1px solid white',
-    borderRadius: 0,
     w: { base: '110px', sm: '200px', md: '300px' },
     h: { base: '30px', sm: '50px', md: '70px' },
+    fontWeight: 'bold',
+    ml: '30px',
+    borderBottom: '2px solid white',
     fontSize: { base: '10px', sm: '14px', md: '23px' },
-    _hover:{
-      
-    }
+    _selected: { color: 'white', borderBottom: '2px solid red' }
   }
 }
 
@@ -195,7 +214,7 @@ export const containerStyle = {
   conXl: {
     maxW: 'container.xl',
     mb: "8%",
-    
+
   },
   ConLg: {
     maxW: 'container.lg',
@@ -203,12 +222,9 @@ export const containerStyle = {
   },
   navBarContainerStyle: {
     maxW: 'container.xl',
-    h:'60px',
-    pt:'10px',
-
+    pt: '10px',
+    pb:'10px'
   }
-
-
 }
 
 export const takeFullControlCardStyle = {
@@ -235,7 +251,7 @@ export const takeFullControlCardStyle = {
   },
   imageIcon: {
     h: '120px',
-    fallbackSrc:'https://via.placeholder.com/120'
+    fallbackSrc: 'https://via.placeholder.com/120'
   },
   cardText: {
 
@@ -253,18 +269,18 @@ export const productCardStyle = {
     borderRadius: 15,
     p: '20px'
   },
-  imageIcon:{
-    h:'120px',
-    mb:'10px',
-    mt:'30px',
-    fallbackSrc:'https://via.placeholder.com/120'
+  imageIcon: {
+    h: '120px',
+    mb: '10px',
+    mt: '30px',
+    fallbackSrc: 'https://via.placeholder.com/120'
   },
-  cardHeading:{
-    fontSize:'20px',
-    mb:'10px'
+  cardHeading: {
+    fontSize: '20px',
+    mb: '10px'
   },
-  cardText:{
-    fontSize:'15px'
+  cardText: {
+    fontSize: '15px'
   }
 }
 export const howToEarnCardStyle = {
@@ -272,80 +288,79 @@ export const howToEarnCardStyle = {
     textAlign: 'left',
     p: '10px'
   },
-  imageIcon:{
-    h:'100px',
-    my:'auto',
-    borderRadius:10,
-    ml:'10px',
-    fallbackSrc:'https://via.placeholder.com/100'
+  imageIcon: {
+    h: '100px',
+    my: 'auto',
+    borderRadius: 10,
+    ml: '10px',
+    fallbackSrc: 'https://via.placeholder.com/100'
   },
-  cardHeading:{
-    fontSize:'20px'
+  cardHeading: {
+    fontSize: '20px'
   },
-  cardText:{
-    fontSize:'15px'
+  cardText: {
+    fontSize: '15px'
   }
 }
-export const cardsCardStyle={
-  cardBox:{
-    w:'280px',
-    h:'330px', 
-    color:'white',
-    boxShadow:'sm',
-    borderRadius:15,
-     p:'20px'
+export const cardsCardStyle = {
+  cardBox: {
+    w: '280px',
+    h: '330px',
+    boxShadow: 'sm',
+    borderRadius: 15,
+    p: '20px'
   },
-  imageIcon:{
-    h:'120px', 
-    mb:'30px' ,
-    fallbackSrc:'https://via.placeholder.com/120'
+  imageIcon: {
+    h: '120px',
+    mb: '30px',
+    fallbackSrc: 'https://via.placeholder.com/120'
   },
-  cardHeading:{
-    fontSize:'20px',
-    mb:'10px'
+  cardHeading: {
+    fontSize: '20px',
+    mb: '10px'
   },
-  cardText:{
-    fontSize:'15px',
-  }
-}
-
-export const multipleBlackChainCardStyle={
-  cardStack:{
-    align:'center'
-  },
-  imageIcon:{
-    h:'50px',
-    fallbackSrc:'https://via.placeholder.com/50'
-  },
-  cardText:{
-
-  },
-  cardTextStatus:{
-    bgColor:'red',
-    p:0,
-    borderRadius:5,
-     fontSize:'12px'
+  cardText: {
+    fontSize: '15px',
   }
 }
 
-export const builtInCardStyle={
-  cardBox:{
-    w:'250px', 
-    h:'300px',
-    color:'white' ,
-    bgColor:'gray.900',
-    borderTop:'1px solid gray',
-    borderRadius:10,
-    align:'center',
-    pt:'50px'
+export const multipleBlackChainCardStyle = {
+  cardStack: {
+    align: 'center'
   },
-  imageIcon:{
-    h:'180px',
-    mb:'30px',
-    fallbackSrc:'https://via.placeholder.com/180'
+  imageIcon: {
+    h: '25px',
+    fallbackSrc: 'https://via.placeholder.com/50'
   },
-  cardText:{
-    fontSize:'20px'
+  cardText: {
+
+  },
+  cardTextStatus: {
+    bgColor: 'red',
+    p: 0,
+    borderRadius: 5,
+    fontSize: '12px'
+  }
+}
+
+export const builtInCardStyle = {
+  cardBox: {
+    w: '250px',
+    h: '300px',
+    color: 'white',
+    bgColor: 'gray.900',
+    borderTop: '1px solid gray',
+    borderRadius: 10,
+    align: 'center',
+    pt: '50px'
+  },
+  imageIcon: {
+    h: '180px',
+    mb: '30px',
+    fallbackSrc: 'https://via.placeholder.com/180'
+  },
+  cardText: {
+    fontSize: '20px'
   }
 }
 
@@ -354,39 +369,37 @@ export const gridStyle = {
     templateColumns: { base: 'repeat(1, 1fr)', sm: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)' },
     gap: 8
   },
-  productGridStyle:{
-    templateColumns:{ base: 'repeat(1, 1fr)', sm: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)' },
-     gap:6
+  productGridStyle: {
+    templateColumns: { base: 'repeat(1, 1fr)', sm: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)' },
+    gap: 6
   },
-  howToEarnGridStyle:{
-    templateColumns:{ base: 'repeat(1, 1fr)', sm: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }, 
-    gap:6,
-    textAlign:'left'
+  howToEarnGridStyle: {
+    templateColumns: { base: 'repeat(1, 1fr)', sm: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' },
+    gap: 6,
+    textAlign: 'left'
   },
-  cardGridStyle:{
-    templateColumns:{ base: 'repeat(1, 1fr)', sm: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)' },
-    gap:6
+  cardGridStyle: {
+    templateColumns: { base: 'repeat(1, 1fr)', sm: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)' },
+    gap: 6
   },
-  multipleBlackChaingGridSyleRow1:{
-    w:'100%',
-    color:'white',
-    templateColumns:{ base: 'repeat(2, 1fr)', sm: 'repeat(4, 1fr)', md: 'repeat(8, 1fr)' },
-    gap:2
+  multipleBlackChaingGridSyleRow1: {
+    w: '100%',
+    templateColumns: { base: 'repeat(4, 1fr)', sm: 'repeat(6, 1fr)', md: 'repeat(8, 1fr)' },
+    gap: { base: '1', sm: '3', md: '6' },
   },
-  multipleBlackChaingGridSyleRow2:{
-    w:'100%',
-    color:'white',
-    templateColumns:{ base: 'repeat(2, 1fr)', sm: 'repeat(4, 1fr)', md: 'repeat(10, 1fr)' },
-    gap:2
+  multipleBlackChaingGridSyleRow2: {
+    w: '100%',
+    templateColumns: { base: 'repeat(4, 1fr)', sm: 'repeat(8, 1fr)', md: 'repeat(10, 1fr)' },
+    gap: { base: '2', sm: '4', md: '6' },
   },
-  incomeCalculatorGridStyle:{
-    templateColumns:{ base: 'repeat(2, 1fr)', sm: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)' },
-    gap:2
+  incomeCalculatorGridStyle: {
+    templateColumns: { base: 'repeat(2, 1fr)', sm: 'repeat(2, 1fr)', md: 'repeat(4, 1fr)' },
+    gap: 2
   },
-  footerGridStyle:{
-    color:'white' ,
-    textAlign:'center',
-    templateColumns:{ base: 'repeat(1, 1fr)', sm: 'repeat(1, 1fr)', md: 'repeat(3, 1fr)' },
-    gap:5
+  footerGridStyle: {
+    color: 'white',
+    textAlign: 'center',
+    templateColumns: { base: 'repeat(1, 1fr)', sm: 'repeat(1, 1fr)', md: 'repeat(3, 1fr)' },
+    gap: 5
   }
 }
